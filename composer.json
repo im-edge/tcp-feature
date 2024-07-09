@@ -1,0 +1,16 @@
+{
+  "name": "imedge/tcp-feature",
+  "type": "project",
+  "config": {
+    "sort-packages": true,
+    "prefer-stable": false
+  },
+  "autoload": {
+    "psr-4": {
+      "IMEdge\\TcpFeature\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=8.1"
+  }
+}
