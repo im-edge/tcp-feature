@@ -5,13 +5,13 @@
 %define bindir          %{_bindir}
 %undefine __brp_mangle_shebangs
 
-Name:           imedge-tcp-feature
+Name:           imedge-feature-tcp
 Version:        %{git_version}
 Release:        %{revision}%{?dist}
 Summary:        IMEdge TCP Feature
 Group:          Applications/System
 License:        MIT
-URL:            https://github.com/im-edge
+URL:            https://github.com/im-edge/tcp-feature
 Source0:        https://github.com/im-edge/tcp-feature/archive/%{git_hash}.tar.gz
 BuildArch:      noarch
 BuildRoot:      %{_tmppath}/%{name}-%{git_version}-%{release}
@@ -19,7 +19,7 @@ Packager:       Thomas Gelf <thomas@gelf.net>
 Requires:       imedge-node
 
 %description
-IMEdge TCP Feature
+IMEdge TCP Feature, implemented as a very simple sample feature.
 
 %prep
 
