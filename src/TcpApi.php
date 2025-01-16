@@ -27,7 +27,7 @@ class TcpApi
 
     public function __construct()
     {
-        $this->connectContext = (new ConnectContext)->withConnectTimeout(5);
+        $this->connectContext = (new ConnectContext())->withConnectTimeout(5);
     }
 
     /**
