@@ -16,6 +16,7 @@ Source0:        https://github.com/im-edge/tcp-feature/archive/%{git_hash}.tar.g
 BuildArch:      noarch
 BuildRoot:      %{_tmppath}/%{name}-%{git_version}-%{release}
 Packager:       Thomas Gelf <thomas@gelf.net>
+Requires:       imedge-node
 
 %description
 IMEdge TCP Feature
